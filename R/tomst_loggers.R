@@ -6,6 +6,8 @@
 ##load meta
 meta_treat <- read.csv(paste(path_dat_clean, 'meta_treat.csv', sep = '/'))
 str(meta_treat)
+
+
 ###select country
 
 #get list of countries
