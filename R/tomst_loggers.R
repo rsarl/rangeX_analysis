@@ -1,13 +1,11 @@
 
 ### ---- PROCESS raw data ---- ####
 
-
-
 ##### check tomst data files and get a list of tomst file and path #####
 
 ##load meta
 meta_treat <- read.csv(paste(path_dat_clean, 'meta_treat.csv', sep = '/'))
-
+str(meta_treat)
 ###select country
 
 #get list of countries
